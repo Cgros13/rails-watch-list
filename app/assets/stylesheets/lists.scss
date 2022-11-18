@@ -8,6 +8,9 @@ header {
   padding: 150px;
 }
 
+.text-muted {
+  color: white;
+}
 
 header h1 {
   font-size: 5rem;
@@ -37,24 +40,25 @@ body {
   }
 }
 
-//
-
-h2 {
+h1, h2 {
   color: white;
 }
 
-a {
-  font-size: 1.5rem;
-  color: white;
-  font-weight: bold;
-  display: inline-block;
-  text-align: center;
-  height: 200px;
-  width: 200px;
-  margin-right: 8px;
-  padding-top: 130px;
-  text-decoration: none;
-  background-image: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.4));
+body {
+
+  a {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    margin-right: 8px;
+    padding-top: 130px;
+    text-decoration: none;
+    background-image: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.4));
+  }
 }
 
 .add-list {
@@ -86,14 +90,57 @@ a {
   }
 }
 
+.movie-tag {
+  color: white;
+}
+
+.card-img-top {
+  width: 100%
+}
+.card-body {
+
+  p, h5 {
+    color: white;
+  }
+  a {
+    width: 23%;
+    height: 0%;
+    padding-top: 0%;
+  }
+}
+
+.card-action {
+  a {
+    width: 45%;
+    height: 50%;
+    padding-top: 0%;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 8px;
+    font-weight: lighter;
+  }
+}
 
 .all-lists {
 background-image: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.4));
 background-size: cover;
 background-position: center;
 
-h1 {
-  font-size: 4rem;
-  text-shadow: 5px 5px 5px rgba(255,255,255,0.4);
+  h1 {
+    font-size: 4rem;
+    text-shadow: 5px 5px 5px rgba(255,255,255,0.4);
+  }
 }
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.big-bookmark {
+  width: 100%;
+  .add-bookmark {
+    color: white;
+  }
 }
